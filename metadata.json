@@ -1,0 +1,8 @@
+{
+  "name": "prime-switch",
+  "description": "An extension to switch between intel and nvidia through suse-prime-bbswitch package",
+  "uuid": "prime-switch@prime-switch.extension.com",
+  "shell-version": [
+    "40"
+  ]
+}
