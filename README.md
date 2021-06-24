@@ -2,4 +2,4 @@
 
 ### Based on the package `suse-prime-bbswitch`
 
-(Icons Author)[https://www.flaticon.com/authors/pixel-perfect]
+[Icons Author](https://www.flaticon.com/authors/pixel-perfect)
