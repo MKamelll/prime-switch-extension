@@ -32,8 +32,10 @@ const Me = imports.misc.extensionUtils.getCurrentExtension();
 const Util = imports.misc.util;
 
 // config
-const iconSize = 26;
+const iconSize = 16;
 const primePath = '/usr/sbin/prime-select';
+const enabledIcon = 'nvidia-on';
+const disabledIcon = 'nvidia-off';
 
 // Todo: Get it to work with execCommunicate instead of Util.spawn, it ran it twice!
 
@@ -54,8 +56,8 @@ class Indicator extends PanelMenu.Button {
             primeLog('intel is On');
         }
 
-        let OnIconPath = `${Me.path}/icons/nvidia-on.png`;
-        let OffIconPath = `${Me.path}/icons/nvidia-off.png`;
+        let OnIconPath = `${Me.path}/icons/${enabledIcon}.svg`;
+        let OffIconPath = `${Me.path}/icons/${disabledIcon}.svg`;
         
         this._nvidiaOnIcon = Gio.icon_new_for_string(OnIconPath);
         this._nvidiaOffIcon = Gio.icon_new_for_string(OffIconPath);
