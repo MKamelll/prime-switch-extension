@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.prime" path="/org/gnome/shell/extensions/prime-switch/">
+    <!-- PROFILE -->
+    <key name="current-profile" type="s">
+      <default>"intel"</default>
+      <summary>The current profile</summary>
+    </key>
+  </schema>
+</schemalist>
